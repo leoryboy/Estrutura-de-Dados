@@ -1,0 +1,7 @@
+cd - change dir ou mudar de pasta
+	- cd <nome da pasta>
+	- cd .. volta para a pasta anterior
+
+cls - Limpar a tela | clear só no linux
+
+del <arquivo> apaga um arquivo
