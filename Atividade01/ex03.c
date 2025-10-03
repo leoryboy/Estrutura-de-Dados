@@ -22,21 +22,22 @@ void bsort(int vet[], int t)
 int main(){
     int v[10];
     int i;
-    
-    //Entrada dos dados
-    for(i=0; i<10; i++)
-    {
-        printf("Entre com um numero da posicao %d do vetor: ", i);
+
+    for(i=0; i<10; i++){
+        printf("Entre com o numero %d do vetor: ", i+1);
         scanf("%d", &v[i]);
     }
-    
-    //Chama o método (procedimento) de ordenação do vetor
+
+    // Ordena o vetor
     bsort(v, 10);
-    
-    //Apresentar os dados ordenados
-    printf("\n\nNúmeros ordenados:\n\n");
-    for(i=0; i<10; i++)
-        printf("%d\n", v[i]);
+
+    // Exibe o vetor ordenado
+    printf("Vetor ordenado em ordem crescente: ");
+    for (i = 0; i < 10; i++)
+    {
+        printf("%d ", v[i]);
+    }
+    printf("\n");
 
     return 0;
 }
